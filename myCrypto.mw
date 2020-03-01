@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2019" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="[10, 10]" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L188" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Text" executable="true" layout="Normal"><Font style="Maple Input">#Madhukara Kekulandara</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L176" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">#1
+</Font><Font executable="true">#Encoding and decoding text</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L187" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L190" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;interface(rtablesize=50):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L186" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#encode will convert a string to a list of numbers</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L196" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">encode := proc(text)
+local x,m,final;
+final := [];
+x := convert(text,bytes);
+for m from 1 by 1 to nops(x) do
+    if op(convert(A,bytes))&lt;= op(m,x) and op(m,x) &lt;= op(convert(Z,bytes)) then
+        final := [op(final) , op(m,x)-65 ];
+    elif op(convert(a,bytes))&lt;= op(m,x) and op(m,x) &lt;= op(convert(z,bytes)) then
+        final := [op(final) , op(m,x)-97 ];
+    end if;
+end do;
+if final = [] then
+    error &quot;Invalid Input : Input can not be encoded&quot;
+end if;
+return final;    
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L197" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L199" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#decode will convert a list of numbers to a upper case or lover case string</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L195" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">decode := proc(codebytes :: list, case)
+local x, c;
+c := substring(case,1);
+if c = &quot;U&quot; or c = &quot;u&quot; then
+    x := map(`+`,codebytes, 65);
+elif c = &quot;L&quot; or c = &quot;l&quot; then
+    x := map(`+`,codebytes, 97);
+else
+    error &quot;Invalid Case : Case needs to be UPPER or lower&quot;;
+end if;
+x := convert(x, bytes);
+if x = &quot;&quot; then
+    error &quot;Invalid Input : Input can not be decoded&quot;;
+end if;
+return x;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L180" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L171" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L184" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#2
+#Shift and affine ciphers</Text-field>
+</Input>
+</Group>
+<Group labelreference="L182" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L177" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#shift will encrypt and decrypt text using shift method</Text-field>
+</Input>
+</Group>
+<Group labelreference="L191" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">shift := proc(text, key::integer, direction := &quot;e&quot;)
+local x,d,final;
+if text = &quot;&quot; then
+    error &quot;Invalid Input: Input can not be empty&quot;;
+end if;
+x := encode(text);
+d := substring(direction,1);
+if d = &quot;d&quot; or d = &quot;D&quot; then
+    x := map(modp, map( `-`, x, key), 26);
+    final := decode(x, &quot;l&quot;);
+else
+    x := map(modp, map( `+`, x, key), 26);
+    final := decode(x, &quot;U&quot;);
+end if;
+return final;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L189" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L194" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#affine will encrypt and decrypt text using affine method</Text-field>
+</Input>
+</Group>
+<Group labelreference="L193" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">affine := proc(text, key :: list, direction := &quot;e&quot;)
+local x,final,inverse,d;
+if text = &quot;&quot; then
+    error &quot;Invalid Input: Input can not be empty&quot;;
+end if;
+x := encode(text);
+d := substring(direction,1);
+if gcd(26, op(1,key)) &gt; 1 then
+         error &quot;Invalid key: No inverse exists&quot;;
+end if;
+if d = &quot;d&quot; or d = &quot;D&quot; then    
+    inverse := 1/op(1,key) mod 26;
+    x := map(modp, map( `-`, map( `*`, x, inverse) ,op(2,key)*inverse), 26);
+    final := decode(x, &quot;l&quot;);
+else
+    x := map(modp, map( `+`, map( `*`, x, op(1,key)) ,op(2,key)), 26);
+    final := decode(x, &quot;U&quot;);
+end if;
+return final;
+end proc:</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L198" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L175" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#3
+#Spartan scytale</Text-field>
+</Input>
+</Group>
+<Group labelreference="L201" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L200" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#scytale will encrypt and decrypt using spartan scytale</Text-field>
+</Input>
+</Group>
+<Group labelreference="L174" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">scytale := proc(text,key :: integer,direction := &quot;e&quot;)
+local x,row,final,n,m,i,ltr,d;
+final := [];
+if text = &quot;&quot; then
+    error &quot;Invalid Input: Input can not be empty&quot;;
+end if;
+x := encode(text);
+d := substring(direction,1);
+if irem(nops(x),key) != 0 then
+    row := iquo(nops(x),key) + 1;
+else
+    row := iquo(nops(x),key);
+end if;
+if d = &quot;d&quot; or d = &quot;D&quot; then
+for m from 1 by 1 to key do
+    i := m;
+    for n from 1 by 1 to row do
+        if i &gt; nops(x) then
+            ltr := op(encode(&quot;z&quot;));
+        else
+            ltr := op(i,x);
+        end if;
+        final := [op(final),ltr];
+        i += key; 
+    end do;
+end do;
+final := decode(final, &quot;l&quot;);
+else
+for m from 1 by 1 to row+1 do
+    i := m;
+    for n from 1 by 1 to key do
+        if i &gt; nops(x) then
+            ltr := op(encode(&quot;z&quot;));
+        else
+            ltr := op(i,x);
+        end if;
+        final := [op(final),ltr];
+        i += row+1; 
+    end do;
+end do;
+final := decode(final, &quot;U&quot;);
+end if;
+return final;
+end proc:</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L185" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L172" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#4
+#Random permutation alphabet</Text-field>
+</Input>
+</Group>
+<Group labelreference="L181" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L183" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#randomPermAlphabet produces a random permutauon of the alphabet</Text-field>
+</Input>
+</Group>
+<Group labelreference="L178" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(combinat):	
+with(StringTools):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L173" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">randomPermAlphabet := proc(alphabet)
+if alphabet = &quot;&quot; then
+    error &quot;Invalid Input : alphabet is empty&quot;;
+end if;
+return Implode(randperm(Explode(alphabet)));
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L192" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L211" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">#5
+</Font><Font executable="true">#Monoalphabetic substitutions</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L212" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L202" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(ListTools):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L213" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">monoAlphaSubs := proc(text, key, direction := &quot;e&quot;)
+local x,i,d,final,cipher;
+if text = &quot;&quot; then
+    error &quot;Invalid Input: Input can not be empty&quot;;
+end if;
+final := [];
+x := encode(text);
+cipher := encode(key);
+d := substring(direction,1);
+if d = &quot;d&quot; or d = &quot;D&quot; then
+    for i in x do
+        final := [op(final), Search(i, cipher)-1];        
+    end do;
+    final := decode(final, &quot;l&quot;);
+else
+    for i in x do
+        final := [op(final), op(i+1,cipher)];
+    end do;
+    final := decode(final, &quot;u&quot;);
+end if;
+return final;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L209" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L208" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">#6
+</Font><Font executable="true">#Permutation ciphers</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L207" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L214" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false">permutationCipher := proc(text, key, direction := &quot;e&quot;)
+local x,i,d,final,cipher,keylngth,j,index;
+if text = &quot;&quot; then
+    error &quot;Invalid Input: Input can not be empty&quot;;
+end if;
+final := [];
+x := encode(text);
+keylngth := nops(key);
+d := substring(direction,1);
+if d = &quot;d&quot; or d = &quot;D&quot; then
+    for i from 0 to nops(x)-1 by 1 do
+         for j from 1 to keylngth by 1 do
+              index := i + Search(j, key);
+              final := [op(final), op(index, x)];
+         end do:
+         i += keylngth-1;
+    end do:
+    final := decode(final, &quot;l&quot;);
+else
+    if irem(nops(x),keylngth) &gt; 0 then
+        do
+            x := [ op(x), op(encode(&quot;z&quot;))];
+        until (modp(nops(x),keylngth) = 0):
+    end if;
+    for i from 0 to nops(x)-1 by 1 do
+         for j from 1 to keylngth by 1 do
+              final := [op(final), op((i + op(j,key)), x)];
+         end do:
+         i += keylngth-1;
+    end do:
+    final := decode(final, &quot;u&quot;);
+end if;
+return final;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L203" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L204" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">#7
+</Font><Font executable="true">#Vigenere autokey</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L205" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L210" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false">autokey := proc(text, key, direction := &quot;e&quot;)
+local x,ekey,i,j,final,d;
+if text = &quot;&quot; then
+    error &quot;Invalid Input: Input can not be empty&quot;;
+end if;
+final := [];
+x := encode(text);
+ekey := encode(key);
+d := substring(direction,1);
+if d = &quot;d&quot; or d = &quot;D&quot; then
+    for j from 1 to nops(x) do
+        final := [ op(final), irem((op(j,x)-op(j,ekey)+26),26)];
+        ekey := [op(ekey), irem((op(j,x)-op(j,ekey)+26),26)];
+    end do:
+    final := decode(final, &quot;l&quot;);
+else
+    for i from 1 to nops(x)-1 do
+        ekey := [op(ekey), op(i,x)]; 
+    end do:
+    for j from 1 to nops(x) do
+        final := [ op(final), irem(op(j,x) + op(j,ekey),26)];
+    end do:
+    final := decode(final, &quot;u&quot;);
+end if;
+return final;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L206" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L230" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">#8
+</Font><Font executable="true">#Vigenere cipher</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L249" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L247" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false">vigenere := proc(text, key, direction := &quot;e&quot;)
+local x,ekey,i,j,final,d,finalkey;
+if text = &quot;&quot; then
+    error &quot;Invalid Input: Input can not be empty&quot;;
+end if;
+final := [];
+x := encode(text);
+ekey := encode(key);
+finalkey := ekey;
+if nops(x) &lt;&gt; nops(finalkey) then
+    do
+        finalkey := [ op(finalkey), op(ekey)];
+    until ( nops(x) &lt;= nops(finalkey)):
+end if;
+d := substring(direction,1);
+if d = &quot;d&quot; or d = &quot;D&quot; then
+    for j from 1 to nops(x) do
+        final := [ op(final), irem((op(j,x)-op(j,finalkey)+26),26)];
+    end do:
+    final := decode(final, &quot;l&quot;);
+else
+    for j from 1 to nops(x) do
+        final := [ op(final), irem(op(j,x) + op(j,finalkey),26)];
+    end do:
+    final := decode(final, &quot;u&quot;);
+end if;
+return final;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L248" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L228" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">#9
+</Font><Font executable="true">#Hill cipher</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L235" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################
+with(LinearAlgebra):with(LinearAlgebra[Modular]):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L229" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">hill := proc(text, key, direction := &quot;e&quot;)
+local x,dim,i,j,final,d,xmat,ikey;
+if text = &quot;&quot; then
+    error &quot;Invalid Input: Input can not be empty&quot;;
+end if;
+if gcd(26, Det(key)mod 26) &gt; 1 then
+    error &quot;Invalid key matrix: No inverse exists mod 26&quot;
+end if:
+final := [];
+x := encode(text);
+dim := ColumnDimension(key);
+if irem(nops(x),dim)&lt;&gt; 0 then
+    do
+        x := [ op(x), op(encode(&quot;z&quot;))];
+    until (modp(nops(x),dim) = 0):
+end if;
+d := substring(direction,1);
+if d = &quot;d&quot; or d = &quot;D&quot; then
+    ikey := Mod(26,MatrixInverse(key),integer[]);
+    for j from 1 to nops(x) do
+        xmat := Matrix(dim,1,[op(j..(j+dim-1),x)]);
+        final := [ op(final), op(map(irem,convert(ikey.xmat, list),26))];
+        j += dim-1;
+    end do:
+    final := decode(final, &quot;l&quot;);
+else
+    for j from 1 to nops(x) do
+        xmat := Matrix(dim,1,[op(j..(j+dim-1),x)]);
+        final := [ op(final), op(map(irem,convert(key.xmat, list),26))];
+        j += dim-1;
+    end do:
+    final := decode(final, &quot;u&quot;);
+end if;
+return final;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L232" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L242" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">#10
+</Font><Font executable="true">#Cryptanalysis of Vigenere cipher</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L239" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L244" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">countFrequncies := proc(text)
+local x,i,j,count,final;
+if text = &quot;&quot; then
+    error &quot;Invalid Input: Input can not be empty&quot;;
+end if;
+x := encode(text);
+final := [];
+for i from 0 to 25 by 1 do
+    count := 0;
+    for j in x do
+        if j = i then
+            count += 1;
+        end if:
+    end do;
+    final := [op(final), count];
+end do:
+return final;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L237" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L246" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">showFrequencies := proc(list)
+local final;
+final := Matrix(4,13,[[&quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot;,&quot;E&quot;,&quot;F&quot;,&quot;G&quot;,&quot;H&quot;,&quot;I&quot;,&quot;J&quot;,&quot;K&quot;,&quot;L&quot;,&quot;M&quot;],[op(1..13,list)],[&quot;N&quot;,&quot;O&quot;,&quot;P&quot;,&quot;Q&quot;,&quot;R&quot;,&quot;S&quot;,&quot;T&quot;,&quot;U&quot;,&quot;V&quot;,&quot;W&quot;,&quot;X&quot;,&quot;Y&quot;,&quot;Z&quot;],[op(14..26,list)]]);
+print(final);
+return NULL;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L245" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L233" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">cosets := proc(text,n)
+local i,j,final,coset,x;
+final := [];
+x := encode(text);
+for i from 1 to n by 1 do
+    coset := [];
+    for j from i to nops(x) by n do
+        coset := [ op(coset), op(j,x)];
+    end do:
+    final := [ op(final) , decode(coset, &quot;u&quot;)];
+end do:
+return final; 
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L231" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#############################################</Text-field>
+</Input>
+</Group>
+<Group labelreference="L238" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">friedman := proc(text)
+local i,x,n,k,j,freq,final;
+freq := countFrequncies(text);
+x := 0;
+n := 0;
+for j in freq do
+    x += j*(j-1);
+    n += j;
+end do:
+i := parse(sprintf(&quot;%.4f&quot;,evalf(x/(n*(n-1)))));
+k := parse(sprintf(&quot;%.2f&quot;,0.0265*n/((0.065 - i) + (n * (i - 0.0385)))));
+final := [i,k];
+return final; 
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L240" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" bold="false" layout="Normal"><Font bold="true">#############################################</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L236" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">cosetICs := proc(text,n)
+local k,csts,j,ICs,sumI,i;
+for k from 1 to n by 1 do
+     csts := cosets(text,k);
+     ICs := [];
+     sumI := 0;
+     for j in csts do
+         i := op(1,friedman(j));
+         ICs := [ op(ICs), i];
+         sumI += i; 
+     end do:
+     print([k,parse(sprintf(&quot;%.5f&quot;,evalf(sumI/k))),ICs])
+end do:
+return NULL; 
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L234" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" bold="false" layout="Normal"><Font bold="true">#############################################</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L241" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">shiftProducts := proc(text)
+local engFreq,textFreq,i,dtprdct,textOccurence,sumTxtOcrnce,a;
+engFreq := [8.399,1.442,2.527,4.800,12.150,2.132,2.323,6.025,6.485,0.102,0.689,4.008,2.566,6.778,7.493,1.991,0.077,6.063,6.319,8.999,2.783,0.996,2.464,0.204,2.157,0.025];
+textOccurence := countFrequncies(text);
+sumTxtOcrnce := convert(textOccurence,`+`);
+textFreq := map(`/`,textOccurence,sumTxtOcrnce);
+engFreq := convert(engFreq,Vector);
+a := textFreq;
+dtprdct := [];
+for i from 0 to 25 do
+    dtprdct := [op(dtprdct),parse(sprintf(&quot;%.5f&quot;,evalf(DotProduct(a,engFreq)/100)))];
+    a := [op(2..nops(a),a),op(1,a)];
+end do:
+return dtprdct; 
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L243" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" bold="false" layout="Normal"><Font bold="true">#############################################</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
